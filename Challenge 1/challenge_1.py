@@ -13,15 +13,16 @@ import json
 divvy_stations = json.loads(open('divvy_stations.txt').read())
 
 # PROBLEM 1
-# find average number of empty docks and available bikes at each station
+# find average number of empty docks (num_docks_available) and 
+# available bikes (num_bikes_available) at each station
 
 
 # PROBLEM 2
-# find ratio of bikes that are currently rented to total bikes in the system
+# find ratio of bikes that are currently rented to total bikes in the system (ignore ebikes)
 
 
 # PROBLEM 3 
 # Add a new variable for each divvy station's entry, "percent_bikes_remaining", that shows 
-# the percentage of bikes available at each individual station. 
+# the percentage of bikes available at each individual station (again ignore ebikes). 
 # This variable should be formatted as a percentage rounded to 2 decimal places, e.g. 66.67%
 
