@@ -14,7 +14,7 @@ divvy_stations = json.loads(open('divvy_stations.txt').read())
 
 # PROBLEM 1
 # find average number of empty docks (num_docks_available) and 
-# available bikes (num_bikes_available) at each station
+# available bikes (num_bikes_available) at all stations in the system
 
 
 # PROBLEM 2
