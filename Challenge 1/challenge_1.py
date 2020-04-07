@@ -9,7 +9,7 @@
 
 import json
 
-# do not delete; this file has the data you'll be working with
+# do not delete; this is the data you'll be working with
 divvy_stations = json.loads(open('divvy_stations.txt').read())
 
 # PROBLEM 1
