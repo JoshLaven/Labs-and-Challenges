@@ -47,7 +47,7 @@ proportion_rented
 # This variable should be formatted as a percentage rounded to 2 decimal places, e.g. 66.67%
 
 for d in divvy_stations:
-    d['percent_bikes_remaining'] = '{0:.{1}f}%'.format(((d['num_bikes_available'] / \
-                          (d['num_docks_available'] + d['num_bikes_available']))) * 100, 2)
+    d['percent_bikes_remaining'] = '{0:.{1}f}%'.format((d['num_bikes_available'] / \
+                          (d['num_docks_available'] + d['num_bikes_available'])) * 100, 2)
 
 divvy_stations[0]
