@@ -17,8 +17,8 @@ my_string.format('that I say', 'that I want to say', 'that should not be said')
 states = ['CA', 'NM', 'MO', 'IL']
 current = 'IL'
 
-for state in states:
-    if state is current: #we will cover if statements later
+for state in states: #we will cover for loops later
+    if state is current: 
         print("Now I live in "+ state)
     else:
         print("I've lived in "+ state)
